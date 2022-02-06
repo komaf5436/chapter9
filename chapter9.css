@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  background-color: #ff9a4b;
+  height: 50px;
+}
+
+main{
+  width: 960px;
+  margin: 50px auto;
+  display: flex;
+}
+
+.topic{
+  background-color: #eeeeee;
+  width: 300px;
+  padding: 10px;
+  position: relative;
+  margin-right: 30px;
+}
+
+.topic:last-child{
+  margin-right: 0;
+}
+
+.topic-img1{
+  background-image: url(img/flow01.png);
+  height: 150px;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.topic-img2{
+  background-image: url(img/flow02.png);
+  height: 150px;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.topic-img3{
+  background-image: url(img/flow03.png);
+  height: 150px;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.topic-num{
+  background-color: #ff9a4b;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+h3{
+  margin: 15px 0 5px;
+}
+
+footer{
+  background-color: #aaaaaa;
+  height: 50px;
+}
